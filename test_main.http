@@ -1,0 +1,35 @@
+# Test your FastAPI endpoints
+
+
+PUT http://127.0.0.1:9000/blog/20
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "mytitle42",
+  "body": "mybody42"
+}
+
+
+###
+
+DELETE http://127.0.0.1:9000/blog/7
+Accept: application/json
+
+###
+GET http://127.0.0.1:9000/blog_all
+Accept: application/json
+
+###
+GET http://127.0.0.1:9000/users
+
+
+###
+
+
+###users
+
+GET http://127.0.0.1:9000/user
+Accept: application/json
+
+

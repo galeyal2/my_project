@@ -1,0 +1,38 @@
+###user###
+GET http://127.0.0.1:9000/user
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:9000/user
+Accept: application/json
+Content-Type: application/json
+
+{
+    "user": "eyal3",
+    "email": "eyal@gmal.com",
+    "password":"dsfdssdff"
+}
+
+###
+
+DELETE http://127.0.0.1:9000/user/2
+Accept: application/json
+
+###
+PUT http://127.0.0.1:9000/user
+Accept: application/json
+Content-Type: application/json
+
+{
+    "id": 1,
+     "user": "eyali2",
+    "email": "eyal@gmaili.com",
+    "password":"dsfdsfdsfsdf"
+
+}
+
+###
+
+GET http://127.0.0.1:9000/user/1
+Accept: application/json

@@ -1,0 +1,41 @@
+###
+GET http://127.0.0.1:9000/blog
+Accept: application/json
+
+
+###
+POST http://127.0.0.1:9000/blog
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "this is my title",
+  "body": "this is my body"
+}
+
+
+###
+PUT http://127.0.0.1:9000/user
+Accept:application/json
+Content-Type: application/json
+
+{
+  "id": 7,
+  "title": "this is sdfdsf",
+  "body": "sdfsdf"
+}
+
+###
+GET http://127.0.0.1:9000/user/7
+Accept: application/json
+
+###
+DELETE http://127.0.0.1:9000/user/7
+Accept: application/json
+
+
+
+
+
+
+
